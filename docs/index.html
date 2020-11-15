@@ -6,7 +6,7 @@
   <meta name="description" content="quieres jugar">
 </head>
 <body> 
- 
+  <!--nav--> 
   <nav>
     
       <div class="container">
@@ -17,13 +17,13 @@
             </div>
           
             <ul>
-              <li><a href="">¿que es?</a></li>
-              <li><a href="">buneficion</a></li>
-              <li><a href="">¿como funciona?</a></li>
-              <li><a href="">descargar</a></li>
+              <li><a href="#que-es">¿que es?</a></li>
+              <li><a href="#beneficios">buneficion</a></li>
+              <li><a href="#como-funciona">¿como funciona?</a></li>
+              <li><a href="#descargar">descargar</a></li>
             </ul>
           
-
+  <!--logo-->          
           <div class="col-2">
             <h1>
               <a href="">
@@ -34,23 +34,58 @@
         </div>
       </div> 
   </nav>ç
+  <!--main-->
+  <main>
+    <header>
+      <div class="container">
+        <div class="row">
+          <section>
+            <article>
+              <div class="col-4">
+                <h2>¿quieres jugar y divertirte? juega Mobile Legends</h2>
+              </div>
+              <div class="col-2">
+                <p>juegos estilo MOBA (ambientado en campos de batallas online para multijugadores) muy similar a títulos reconocidos como el League of Legends y el Heroes Of The Storm, es decir, un juego de ofensiva y defensiva.</p>    
+              </div>
+
+              <div class="col-2">
+                <a href="">Característica</a>
+              </div>
+              <div class="col-2">
+                <a href="">Download</a>
+              </div>
+            </article>       
+
+            <div class="col-4">
+              <h3>play a game</h3>
+              <form action="procesar-formulario.php" post="post">
+                <input type="text" placeholder="Nombre y apellido" required>
+                <input type="email" placeholder="Email" autofocus required>
+
+                <button type="submit">suscribirse</button>
+              </form>
+            </div> 
+                 
+          </section>
+        </div>  
+      </div> 
+    </header>
+    <hr>
+  </main>
+  <footer>
+    <a href="https://play.google.com/store/apps/details?id=com.mobile.legends&hl=es_AR&gl=US">descargar</a>
+  </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
+<!--ventanas modales-->
+<div id="que-es" class="modal-mask">
+  <div class="content">
+    <a href="#/">x</a>
+    <h2>¿que es?</h2>
+    <h3>es un juegos estilo MOBA (ambientado en campos de batallas online para multijugadores) muy similar a títulos reconocidos como el League of Legends y el Heroes Of The Storm, es decir, un juego de ofensiva y defensiva.</h3>
+    <img src="" alt="">
+  </div>
+</div>
 
   
 </body>
